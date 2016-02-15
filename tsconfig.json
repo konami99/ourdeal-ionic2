@@ -2,17 +2,19 @@
   "compilerOptions": {
     "target": "ES5",
     "module": "commonjs",
-    "noEmitOnError": false,
+    "noEmitOnError": true,
     "rootDir": ".",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
-    "sourceMap": false,
+    "sourceMap": true,
     "sourceRoot": "",
     "inlineSourceMap": false,
-    "inlineSources": false
+    "inlineSources": false,
+    "experimentalDecorators": true
   },
   "files": [
-    "app/app.ts"
+    "app/app.ts",
+    "app/services/deal.service.ts"
   ],
   "exclude": [
     "node_modules"
