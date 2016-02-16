@@ -15,8 +15,8 @@
   "files": [
     "app/app.ts",
     "app/services/deal.service.ts",
-    "app/mocks/hero.ts",
-    "app/mocks/mock.heroes.ts"
+    "app/mocks/deal.ts",
+    "app/mocks/mock.deals.ts"
   ],
   "exclude": [
     "node_modules"
