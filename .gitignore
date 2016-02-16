@@ -8,3 +8,6 @@ plugins/
 *.swp
 .DS_Store
 Thumbs.db
+app/**/*.js
+app/**/*.js.map
+.vscode/*

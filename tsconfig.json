@@ -2,7 +2,7 @@
   "compilerOptions": {
     "target": "ES5",
     "module": "commonjs",
-    "noEmitOnError": true,
+    "noEmitOnError": false,
     "rootDir": ".",
     "emitDecoratorMetadata": true,
     "experimentalDecorators": true,
@@ -14,10 +14,12 @@
   },
   "files": [
     "app/app.ts",
-    "app/services/deal.service.ts"
+    "app/services/deal.service.ts",
+    "app/mocks/hero.ts",
+    "app/mocks/mock.heroes.ts"
   ],
   "exclude": [
     "node_modules"
   ],
-  "compileOnSave": false
+  "compileOnSave": true
 }
