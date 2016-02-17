@@ -1,10 +1,10 @@
 import {Injectable} from 'angular2/core';
-import {HEROES} from '../mocks/mock.heroes.ts'
+import {DEALS} from '../mocks/mock.deals.ts'
 
 
 @Injectable()
-export class HeroService {
+export class DealService {
     getHeroes(){
-        return Promise.resolve(HEROES);
+        return Promise.resolve(DEALS);
     }
 }
