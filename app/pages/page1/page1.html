@@ -12,9 +12,23 @@
     Take a look at the <code>www/app/</code> directory to add or change tabs,
     update any existing page or create new pages.
   </p>
-  <ul class="heroes">
-    <li *ngFor="#deal of deals">
-        <span class="badge">{{deal.id}}</span> {{deal.title}}
-    </li>
-  </ul>
+  
+  <div class="list card" *ngFor="#deal of deals">
+
+    <div class="item item-avatar">
+        
+        <h2>{{deal.id}}</h2>
+        <p>Nine Inch Nails</p>
+    </div>
+
+    <div class="item item-image">
+        
+    </div>
+
+    <a class="item item-icon-left assertive" href="#">
+        <i class="icon ion-music-note"></i>
+        {{deal.title}}
+    </a>
+
+  </div>
 </ion-content>
