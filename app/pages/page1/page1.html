@@ -12,4 +12,9 @@
     Take a look at the <code>www/app/</code> directory to add or change tabs,
     update any existing page or create new pages.
   </p>
+  <ul class="heroes">
+    <li *ngFor="#deal of deals">
+        <span class="badge">{{deal.id}}</span> {{deal.title}}
+    </li>
+  </ul>
 </ion-content>
